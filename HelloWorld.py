@@ -1,1 +1,2 @@
-print("Hello World")
+frase = "Olá, mundo!";
+print(frase);
