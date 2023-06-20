@@ -26,3 +26,19 @@ print();
 vc = vc.replace("V", "B");
 
 print(vc);
+
+""" RESULTADO (TERMINAL):
+
+String original: 
+Olá, sou Victor Cláudio!
+
+Acessando caracteres individuais: 
+Primeiro caractere:  O
+Último caractere:  !
+PenÚltimo caractere:  o
+
+banana 1840828170672
+
+Bictor
+
+"""
