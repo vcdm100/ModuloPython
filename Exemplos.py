@@ -6,7 +6,7 @@ segundoNumero = float(input("Digite o segundo número: "));
 
 soma = primeiroNumero + segundoNumero
 
-print("Valor da soma é ",soma);
+print("Valor da soma é ", soma);
 print();
 
 """ RESULTADO (TERMINAL)
@@ -65,7 +65,7 @@ Quantidade de letras: 6
 """
 
 # 5. Exiba os números de 1 a 10 usando um loop:
-for index in range(10):
+for index in range(15):
   print(index + 1);
 
 print();
@@ -82,6 +82,11 @@ print();
 8
 9
 10
+11
+12
+13
+14
+15
 
 """
 
@@ -101,14 +106,14 @@ numero = int(input("Digite um número: "))
 if verificar_primo(numero):
   print("Esse número é impar");
 else:
-  print("Esse número NÃO é impar");
+  print("Esse número não é impar");
 
 print();
 
 """ RESULTADO (TERMINAL)
 
 Digite um número: 65
-Esse número NÃO é impar
+Esse número não é impar
 
 """
  
@@ -125,7 +130,7 @@ Carlos
 
 """
 
-# 7. Quantos alunos eu tenho na lista:
+# 7. Quantos alunos que eu tenho na lista:
 quantidade_alunos = len(lista_alunos);
 print(quantidade_alunos);
 print();
@@ -136,7 +141,7 @@ print();
 
 """
 
-# 8. Quero adicionar o Douglas:
+# 8. Quero adicionar o nome "Douglas":
 lista_alunos.append("Douglas");
 print(lista_alunos);
 print();
@@ -147,7 +152,7 @@ print();
 
 """
 
-# 9. Quero remover o Andre:
+# 9. Quero remover o nome "Andre":
 lista_alunos.remove("Andre");
 print(lista_alunos);
 print();
@@ -169,7 +174,7 @@ print();
 
 """
 
-# 11. Quero verificar se o aluno João está na lista:
+# 11. Quero verificar se o aluno "João" está na lista:
 if "João" in lista_alunos:
   print("João está na lista");
 else:
