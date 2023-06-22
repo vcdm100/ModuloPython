@@ -51,3 +51,28 @@ sublista2 = numeros2[2:4];
 print(sublista);
 print(sublista2);
 print();
+
+""" RESULTADO (TERMINAL)
+
+[1, 2, 3, 4, 5]
+['a', 'b', 'c', 'd']
+[1, 'a', 3.14, True]
+
+gosto de comer da banana
+
+['maça', 'laranja', 'morango']
+Tamanho 1:  3
+
+['maça', 'laranja', 'morango', 'abacaxi']
+Tamanho 2:  4
+
+a
+
+[1, 2, 3, 4, 5, 6]
+
+[0, 0, 0]
+
+[2, 3, 4]
+['c', 'd']
+
+"""
