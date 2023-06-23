@@ -21,7 +21,24 @@ print();
 frutas.append("abacaxi");
 
 print(frutas);
+print();
+
+frutas.insert(0,"uva");
+
+print(frutas);
 print("Tamanho 2: ", len(frutas));
+print();
+
+frutaRemovida = frutas.remove("morango");
+frutaRemovida = frutas.pop(2);
+
+print(frutas);
+print(frutaRemovida);
+print();
+
+frutas.sort();
+
+print("Embaralhado: ", frutas);
 print();
 
 listaNova = [1, ["a", "b"]];
@@ -64,7 +81,14 @@ gosto de comer da banana
 Tamanho 1:  3
 
 ['maça', 'laranja', 'morango', 'abacaxi']
-Tamanho 2:  4
+
+['uva', 'maça', 'laranja', 'morango', 'abacaxi']
+Tamanho 2:  5
+
+['uva', 'maça', 'abacaxi']
+laranja
+
+Embaralhado:  ['abacaxi', 'maça', 'uva']
 
 a
 
