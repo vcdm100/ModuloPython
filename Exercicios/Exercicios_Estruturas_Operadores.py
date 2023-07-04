@@ -228,4 +228,10 @@ O número não é um múltiplo de 3 e 5 ao mesmo tempo.
 Digite um número inteiro: 0
 O número é um múltiplo de 3 e 5 ao mesmo tempo.
 
+Digite um número inteiro: 15
+O número é um múltiplo de 3 e 5 ao mesmo tempo.
+
+Digite um número inteiro: 5
+O número não é um múltiplo de 3 e 5 ao mesmo tempo.
+
 """
