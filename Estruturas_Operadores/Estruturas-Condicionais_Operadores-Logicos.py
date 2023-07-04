@@ -107,3 +107,93 @@ Digite sua senha: 1924@Victor
 A senha informada está errada!
 
 """
+
+#Verificação de acesso um sistema com login e senha
+usuario = input("Digite o seu usuário: ");
+senha = input("Digite sua senha: ");
+
+usuarioCorreto  = "admin";
+senhaCorreta    = "admin";
+
+if (usuario != usuarioCorreto) and (senha != senhaCorreta):
+    print("Usuário e senha incorretos!");
+if usuario != usuarioCorreto:
+    print("O usuário está incorreto!");
+elif not(senha == senhaCorreta):
+    print("A senha está incorreta!");
+else:
+    print("Login bem-sucedido!");
+
+print();
+
+""" RESULTADO (TERMINAL)
+
+Digite o seu usuário: admin
+Digite sua senha: admin
+Login bem-sucedido!
+
+Digite o seu usuário: admin
+Digite sua senha: adm41
+A senha está incorreta!
+
+Digite o seu usuário: 45
+Digite sua senha: admin
+O usuário está incorreto!
+
+"""
+
+#Verifica de múltiplas condiçôes com "and" ou "or":
+numero = 10;
+
+if (numero > 0 and numero < 5) or (numero > 10 and numero < 15):
+    print("O número atende aos critérios");
+else:
+    print("O número não atende os critérios");
+
+print();
+
+""" RESULTADO (TERMINAL)
+
+O número não atende os critérios
+
+"""
+
+#Verificação de uma condição negada
+#Verificar se uma pessoa está apta a dirigir
+
+idade = int(input("Informe sua idade: "));
+possuiCarteira = False;
+
+if idade >= 18 and not possuiCarteira:
+    print("Você precisa de ter a carteira de motorista!");
+else:
+    print("Você está apto a dirigir!");
+
+print();
+
+""" RESULTADO (TERMINAL)
+
+Informe sua idade: 24
+Você precisa de ter a carteira de motorista!
+
+Informe sua idade: 17
+Você está apto a dirigir!
+
+"""
+
+#MATCH CASE
+comando = 'Olá, mundo!'
+
+match comando:
+    case 'Olá, mundo!':
+        print("Olá para você também");
+    case 'Adeus, Mundo':
+        print("Adeus!");
+    case _:
+        print("Sem resultados!");
+        
+""" RESULTADO (TERMINAL)
+
+Olá para você também
+
+"""
