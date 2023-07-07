@@ -1,4 +1,4 @@
-#Exemplo 1: contagem regressiva de 10 a 1
+# #Exemplo 1: contagem regressiva de 10 a 1
 
 contador = 10;
 
@@ -145,7 +145,7 @@ Informe a quantidade de numeros a serem impressos: 4
 
 """
 
-#Jogo da adivinhação
+#Exemplo 5: Jogo da adivinhação
 
 numeroSecreto = 42;
 palpite = int(input("Digite um número: "));
@@ -194,5 +194,119 @@ aula
 Digite uma palavra ('sair' para encerrar): Python 
 python
 Digite uma palavra ('sair' para encerrar): SAIR
+
+"""
+
+# Exemplo 7: Implementação de menu  opções.
+
+opcao = 0;
+
+while opcao != 4:
+    print("Menu: ")
+    print("1. Opção 1");
+    print("2. Opção 2");
+    print("3. Opção 3");
+    print("4. Sair");
+    
+    opcao = int(input("Informe a opção escolihda: "));
+    
+    if opcao == 1:
+        print("Opção 1 selecionada!");
+    elif opcao == 2:
+        print("Opção 2 selecionada!");
+    elif opcao == 3:
+        print("Opção 3 selecionada!");
+    elif opcao == 4:
+        print("Saindo...");
+    else:
+        print("Opção inválida, tente novamente")
+
+print();
+
+""" RESULTADO (TERMINAL):
+
+Menu: 
+1. Opção 1
+2. Opção 2
+3. Opção 3
+4. Sair
+Informe a opção escolihda: 1
+Opção 1 selecionada!
+Menu: 
+1. Opção 1
+2. Opção 2
+3. Opção 3
+4. Sair
+Informe a opção escolihda: 5
+Opção inválida, tente novamente
+Menu:
+1. Opção 1
+2. Opção 2
+3. Opção 3
+4. Sair
+Informe a opção escolihda: 3
+Opção 3 selecionada!
+Menu:
+1. Opção 1
+2. Opção 2
+3. Opção 3
+4. Sair
+Informe a opção escolihda: 4
+Saindo...
+
+"""
+
+#Exemplo 8: EMULANDO DO WHILE
+
+palavraSecreta = "python";
+contador = 0;
+
+while True:
+    
+    palavra = input("Informe a palavra secreta: ").lower();
+    contador += 1;
+    
+    if palavra == palavraSecreta:
+        print("Você acertou a palavra secreta!");
+        break;
+    
+    if palavra != palavraSecreta:
+        
+        tentativas = 7 - contador;
+        
+        print(f"Palavra errada! Você possui {tentativas} de total 7 tentativas");
+    
+    if (palavra != palavraSecreta and contador >= 7):
+        print("Você atingiu o limite de tentativas!");
+        break;
+
+print();
+
+""" RESULTADO (TERMINAL):
+
+Informe a palavra secreta: Oi
+Palavra errada! Você possui 6 de total 7 tentativas
+Informe a palavra secreta: METODOLGIA
+Palavra errada! Você possui 5 de total 7 tentativas
+Informe a palavra secreta: ÁGUA
+Palavra errada! Você possui 4 de total 7 tentativas
+Informe a palavra secreta: PYTHon
+Você acertou a palavra secreta!
+
+Informe a palavra secreta: Simone
+Palavra errada! Você possui 6 de total 7 tentativas
+Informe a palavra secreta: Victor
+Palavra errada! Você possui 5 de total 7 tentativas
+Informe a palavra secreta: Data
+Palavra errada! Você possui 4 de total 7 tentativas
+Informe a palavra secreta: Bruna
+Palavra errada! Você possui 3 de total 7 tentativas
+Informe a palavra secreta: Aula
+Palavra errada! Você possui 2 de total 7 tentativas
+Informe a palavra secreta: Prova
+Palavra errada! Você possui 1 de total 7 tentativas
+Informe a palavra secreta: PHP
+Palavra errada! Você possui 0 de total 7 tentativas
+Você atingiu o limite de tentativas!
 
 """
