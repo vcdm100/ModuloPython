@@ -1,5 +1,4 @@
 #Solução orientada a objetos para um banco com a entidade "Conta"
-
 class Conta:
     def __init__ (self, numero, titular, saldo = 0):
         self.numero = numero;
@@ -34,4 +33,3 @@ titular: Victor
 Saldo: 500.00
 
 """
-        
