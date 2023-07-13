@@ -15,7 +15,6 @@ class Conta:
         else:
             print("Saldo insuficiente!");
         
-    
     def exibir_informacoes(self):
         print(f"Conta: {self.numero}");
         print(f"titular: {self.titular}");
