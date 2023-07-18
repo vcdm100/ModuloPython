@@ -31,4 +31,16 @@ titular: Victor Cláudio
 Saldo antes da conversão para real: 5,583.33
 Saldo: R$ 5.583,33
 
+Informe o número da conta: 654321-0
+Informe o titular da conta: Simone Moura
+Informe o saldo da conta: 1500
+Informe o valor para depósito: 400
+Informe o valor de saque: 2510.56
+Saldo insuficiente, você possui R$ 1900.00 disponível para saque
+-------------------------
+Conta: 654321-0
+titular: Simone Moura
+Saldo antes da conversão para real: 1,900.00
+Saldo: R$ 1.900,00
+
 """
